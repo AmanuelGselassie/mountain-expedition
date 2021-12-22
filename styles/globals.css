@@ -1,0 +1,293 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.section {
+  /* padding-top: 5px; */
+  padding-bottom: 4px;
+  position: relative;
+  background-image: 100%;
+  /* margin-top: -3px; */
+  min-height: 100%;
+  height: 100vh;
+}
+.section1 {
+  padding-top: 5px;
+  padding-bottom: 4px;
+  position: relative;
+  background-image: 100%;
+  margin-top: -3px;
+  /* min-height: 100%;
+  height: 100vh; */
+}
+.description{
+  padding-left: 13px;
+    padding-right: 13px;
+}
+.position-absolute{
+  z-index: 1;
+  bottom: -39px;
+  fill: white;
+}
+.h5 {
+  line-height: 3.2;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* .position-absolute */
+.serv {
+  z-index: 1;
+  bottom: -600px;
+  fill: white;
+  margin: 0px;
+  left: -16px;
+  filter: opacity(0.9);
+}
+.serv2{
+  z-index: 1;
+  bottom: -677px;
+  fill: white;
+  margin: 0px;
+  left: -16px;
+}
+.d-block{
+  border-left: 3px solid black;
+  height: 5rem;
+  margin: -3rem auto;
+  width: 1px;
+}
+.rw{
+  margin: 50px;
+}
+.banner-full 
+.banner-text{
+  text-align: center;
+  margin: -150px auto 35px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: white;
+  font-size: 80px;
+  font-family: "Open Sans";
+  line-height: 65px;
+  text-shadow: 1px 0px 7px black;
+}
+.service-text{
+  text-align: center;
+  margin: 2rem auto 35px;
+  top: 60%;
+  width: 100%;
+  color: white;
+  font-size: 63px;
+  font-family: "Open Sans";
+  line-height: 90px;
+  z-index: 2;
+  text-shadow: 1px 0px 7px black;
+}
+.service-sub{
+  text-align: center;
+  margin: auto;
+  max-width: 70%;
+}
+.banner-med{
+  line-height: 45px;
+  font-size: 75px;
+}
+.banner-small{
+  line-height: 65px;
+  font-size: 75px;
+  
+}
+.img-fluid{
+  
+  height: 950px;
+  width: 100%;
+  margin-top: -3rem;
+}
+.img-fluid1{
+  filter: brightness(0.8);
+  height: 100%;
+  width: 100%;
+  /* margin-top: -41px; */
+  object-fit: cover; 
+  background-position: bottom;
+  background-size: cover;
+}
+.img-fluid2{
+  filter: brightness(0.5);
+  height: 950px;
+  width: 100%;
+  filter: brightness(0.6);
+  margin-top: 0px;
+  position: absolute;
+  object-fit: cover;
+}
+.img-fluid3 {
+  height: 400px;
+  width: 400px;
+  margin-top: -57px;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+.card-wrapper{
+  /* height: 200px; */
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+.img-fluid4 { 
+  height: 400px;
+  width: 400px;
+  margin-top: 0px;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
+.tit-tex{
+  margin-top: 3rem;
+  padding-left: 11px;
+}
+.img-fluid5 {
+  height: 400px;
+  width: 400px;
+  margin-top: -57px;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+.top{
+  margin-top: -10rem;
+}
+.pad-bottom{
+  padding-bottom: 250px;
+}
+@media (max-width: 2400px) {
+.grid {
+  width: 100%;
+}
+}
+@media only screen and (max-width: 601px) {
+.img-fluid2{
+  width:100%;
+  margin-top: -10rem;
+  position:absolute;
+}
+.banner-med{
+  line-height: 55px;
+  font-size: 72px;
+}
+.banner-small{
+  line-height: 65px;
+  font-size: 72px;
+  
+}
+
+.card-wrapper{
+  height: inherit;
+}
+
+.top{
+  margin-top: 0;
+}
+.banner-full .banner-text {
+  text-align: center;
+  margin: -12rem auto 35px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: white;
+  font-size: 70px;
+  font-family: "Open Sans";
+  line-height: 65px;
+  text-shadow: 1px 0px 7px black;
+  
+}
+.service-text{
+  text-align: center;
+  margin: 2rem auto 35px;
+  top: 60%;
+  width: 100%;
+  color: white;
+  font-size: 80px;
+  font-family: "Open Sans";
+  line-height: 90px;
+  z-index: 2;
+  text-shadow: 1px 0px 7px black;
+}
+.service-sub {
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+}
+.img-fluid1{
+  height: 830px;
+}
+.col-6 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.service-text {
+  font-size: 50px;
+  line-height: 40px;
+  top: 40%;
+}
+.first{
+  top:-7rem;
+  min-width: 95%;
+  max-height: 70%;
+}
+.second{
+  top:-7rem;
+  min-width: 95%;
+  max-height: 70%;
+
+}
+.thrid{
+  top: 7rem;
+  min-width: 95%;
+  max-height: 70%;
+
+}
+
+.section {
+  height: inherit;
+}
+
+.img-fluid4 {
+  width: 100%;
+  position: relative;
+  left: 0px;
+}
+.img-fluid5 {
+  width: 100%;
+  position: relative;
+  left: 0px;   
+}
+.img-fluid3 {
+  width: 100%;
+  position: relative;
+  left: 0px;
+}}
+
+.section#about {
+  position: relative;
+  z-index: 1;
+}
+.section#about:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #00000091;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
