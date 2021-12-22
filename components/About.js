@@ -1,6 +1,5 @@
   import React from 'react';
   import Image from 'next/image'
-  import { Container, Row, Col } from "reactstrap";
   import Pex1 from '../public/assets/pex1.jpg';
   import Pex3 from '../public/assets/pex3.jpg';
   import Pex4 from '../public/assets/pex4.jpg';
