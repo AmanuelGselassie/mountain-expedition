@@ -9,12 +9,13 @@
     return (
       <section className="section bg-light d-flex align-items-center justify-content-center pad-bottom" id="about"   style={{backgroundImage: 'url(../assets/lastmou.jpg)', backgroundSize: 'cover'}}>
       <div className="container">
-        <div class="row top">
+        <div className="row top">
           <div className="col-12 col-md-4">
             <div className="card-wrapper first">
               <Image
                 layout="responsive"
                 objectFit="cover"
+                alt="blank"
                 src={Pex1}
                 width={416}
                 height={416}
@@ -37,6 +38,7 @@
               <Image
                 layout="responsive"
                 src={Pex3}
+                alt="blank"
                  width={416}
                  height={416}
                 className=""
@@ -60,6 +62,7 @@
             <Image
               layout="responsive"
               src={Pex4}
+              alt="blank"
               width={416}
               height={416}
               className=""

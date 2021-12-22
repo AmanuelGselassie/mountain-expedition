@@ -8,13 +8,14 @@
     return (
       <section className="section img-fluid d-flex align-items-center justify-content-center position-relative" id="service"   style={{background:'linear-gradient(rgb(0 130 170 / 0%),rgb(0 0 0 / 87%)), url(../assets/pngwing6.png)', backgroundSize: 'cover'}}>
       <div className="container">
-        <div class="row top">
+        <div className="row top">
           <div className="col-12 "></div>
             <div className="banner-full">
               <div style={{width: 140, margin: '70px auto'}}>
                 <Image
                   layout="responsive"
                   src={Logos}
+                  alt="blank"
                   width={50}
                   height={50}
                   className=""

@@ -13,6 +13,7 @@
                 <Image
                   src={Logos}
                   width={120}
+                  alt="blank"
                   height={120}
                   className=""
                 />

@@ -8,7 +8,7 @@ import { Container, Row, Col } from "reactstrap";
           <Row>
             <Col xs={6}><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br/> <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> </Col>
             <Col xs={6}><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
-            <button type="button" class="btn btn-secondary">Read more<span className="right-icon ml-2">&#8594;</span></button>
+            <button type="button" className="btn btn-secondary">Read more<span className="right-icon ml-2">&#8594;</span></button>
             </Col>
           </Row>
         </Container>      
